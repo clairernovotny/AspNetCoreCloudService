@@ -8,11 +8,23 @@
         </Bindings>
       </Site>
     </Sites>
+    <Startup>
+      <Task commandLine="Startup\startup.cmd" executionContext="elevated" taskType="simple">
+        <Environment>
+          <Variable name="IsEmulated">
+            <RoleInstanceValue xpath="/RoleEnvironment/Deployment/@emulated" />
+          </Variable>
+        </Environment>
+      </Task>
+    </Startup>
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
     </ConfigurationSettings>
     <Endpoints>
       <InputEndpoint name="Endpoint1" protocol="http" port="80" />
     </Endpoints>
+    <LocalResources>
+      <LocalStorage name="CustomTempPath" cleanOnRoleRecycle="true" sizeInMB="500" />
+    </LocalResources>
   </WebRole>
 </ServiceDefinition>
