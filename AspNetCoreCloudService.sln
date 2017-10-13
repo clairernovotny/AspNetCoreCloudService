@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheWebsite", "TheWebsite\TheWebsite.csproj", "{5EADDCB1-15E8-434C-97B3-E7DA95BD0F20}"
 EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "TheCloudService", "TheCloudService\TheCloudService.ccproj", "{6DC6F7A8-D465-4B67-96BB-7F2C44F67E3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWebRole", "TheWebRole\TheWebRole.csproj", "{7EC9B1FF-31CB-4200-99C7-72C3A8A472B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5EADDCB1-15E8-434C-97B3-E7DA95BD0F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EADDCB1-15E8-434C-97B3-E7DA95BD0F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EADDCB1-15E8-434C-97B3-E7DA95BD0F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC6F7A8-D465-4B67-96BB-7F2C44F67E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC6F7A8-D465-4B67-96BB-7F2C44F67E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC6F7A8-D465-4B67-96BB-7F2C44F67E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC6F7A8-D465-4B67-96BB-7F2C44F67E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC9B1FF-31CB-4200-99C7-72C3A8A472B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC9B1FF-31CB-4200-99C7-72C3A8A472B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC9B1FF-31CB-4200-99C7-72C3A8A472B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC9B1FF-31CB-4200-99C7-72C3A8A472B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
