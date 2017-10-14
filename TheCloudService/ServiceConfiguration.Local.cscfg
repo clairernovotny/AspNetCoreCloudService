@@ -4,6 +4,8 @@
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="CustomSetting__Setting1" value="foo" />
+      <Setting name="CustomSetting__Setting2" value="bar" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>

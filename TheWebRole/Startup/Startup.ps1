@@ -19,6 +19,16 @@ $tempPath = [Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment]::GetLocalRes
 [Environment]::SetEnvironmentVariable("TEMP", $tempPath, "User")
 
 
+$keys = @(
+	"CustomSetting__Setting1",
+	"CustomSetting__Setting2"
+)
+
+foreach($key in $keys){
+  [Environment]::SetEnvironmentVariable($key, [Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment]::GetConfigurationSettingValue($key), "Machine")
+}
+
+
 ###
 
 Write-Verbose "========== .NET Core Windows Hosting Installation ==========$nl" 

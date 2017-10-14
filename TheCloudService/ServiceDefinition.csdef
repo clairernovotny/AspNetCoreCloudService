@@ -19,6 +19,8 @@
     </Startup>
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
+      <Setting name="CustomSetting__Setting1" />
+      <Setting name="CustomSetting__Setting2" />
     </ConfigurationSettings>
     <Endpoints>
       <InputEndpoint name="Endpoint1" protocol="http" port="80" />
