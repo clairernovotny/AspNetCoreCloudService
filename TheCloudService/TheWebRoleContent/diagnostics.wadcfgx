@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DiagnosticsConfiguration  xmlns="http://schemas.microsoft.com/ServiceHosting/2010/10/DiagnosticsConfiguration">
   <PublicConfig>
     <WadCfg>
@@ -17,6 +17,7 @@
           <CrashDumpConfiguration processName="WaIISHost.exe"/>
           <CrashDumpConfiguration processName="WaWorkerHost.exe"/>
           <CrashDumpConfiguration processName="w3wp.exe"/>
+          <CrashDumpConfiguration processName="dotnet.exe"/>
         </CrashDumps>
         <PerformanceCounters scheduledTransferPeriod="PT1M">
           <PerformanceCounterConfiguration counterSpecifier="\Memory\Available MBytes" sampleRate="PT3M" />
