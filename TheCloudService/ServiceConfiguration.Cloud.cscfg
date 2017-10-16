@@ -4,8 +4,8 @@
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=testaspnetcorecs;AccountKey=$(_testaspnetcorecs.key_)" />
-      <Setting name="CustomSetting__Setting1" value="foo" />
-      <Setting name="CustomSetting__Setting2" value="bar" />
+      <Setting name="CustomSetting__Setting1" value="__CustomSetting-Setting1__" />
+      <Setting name="CustomSetting__Setting2" value="__CustomSetting-Setting2__" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
