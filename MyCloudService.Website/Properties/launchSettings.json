@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "TheWebsite": {
+    "MyCloudService.Website": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

@@ -5,7 +5,7 @@ using Microsoft.WindowsAzure;
 using Microsoft.WindowsAzure.Diagnostics;
 using Microsoft.WindowsAzure.ServiceRuntime;
 
-namespace TheWebRole
+namespace MyCloudService.WebRole
 {
     public class WebRole : RoleEntryPoint
     {
