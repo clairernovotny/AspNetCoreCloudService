@@ -1,0 +1,27 @@
+{
+  "author": "Oren Novotny",
+  "classifications": [],
+  "description": "template description",
+  "name": "Cloud Service",
+  "defaultName": "CloudService",
+  "identity": "Oren.Template.CloudService.CSharp",
+  "groupIdentity": "Oren.Template.CloudService",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "shortName": "cloudsvc",
+  "sourceName": "MyCloudService",
+  "guids": [],
+  "primaryOutputs": [
+    {
+      "path": "MyCloudService.Service\\MyCloudService.Service.ccproj"
+    },
+    {
+      "path": "MyCloudService.WebRole\\MyCloudService.WebRole.csproj"
+    },
+    {
+      "path": "MyCloudService.Website\\MyCloudService.Website.csproj"
+    }
+  ]
+}
