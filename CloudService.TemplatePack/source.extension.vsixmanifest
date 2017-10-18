@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-  <Metadata>
-    <Identity Id="4B34D912-F5C8-45CB-9613-376240ED48DE" Version="1.0" Language="en-US" Publisher="Author Name" />
-    <DisplayName>My Custom Project Template</DisplayName>
-    <Description>My Custom Project Template. Created with SideWaffle</Description>
-  </Metadata>
-  <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0]" />
-  </Installation>
-  <Dependencies>
-    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
-  </Dependencies>
-  <Prerequisites>
-    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
-  </Prerequisites>
-  <Assets>
-    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="Output\Templates" />
-  </Assets>
+	<Metadata>
+		<Identity Id="4B34D912-F5C8-45CB-9613-376240ED48DE" Version="1.0" Language="en-US" Publisher="Oren Novotny" />
+		<DisplayName>ASP.NET Core Cloud Service Template</DisplayName>
+		<Description xml:space="preserve">My Custom Project Template. Created with SideWaffle</Description>
+		<MoreInfo>https://oren.codes/2017/10/16/using-asp-net-core-with-azure-cloud-services/</MoreInfo>
+		<License>LICENSE.txt</License>
+	</Metadata>
+	<Installation>
+		<InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0]" />
+	</Installation>
+	<Dependencies>
+		<Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+	</Dependencies>
+	<Prerequisites>
+		<Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+		<Prerequisite Id="Microsoft.VisualStudio.ComponentGroup.Azure.CloudServices" Version="[15.0,16.0)" DisplayName="Azure Cloud Services tools" />
+		<Prerequisite Id="Microsoft.VisualStudio.Component.Web" Version="[15.0,16.0)" DisplayName="ASP.NET and web development tools" />
+		<Prerequisite Id="Microsoft.NetCore.ComponentGroup.DevelopmentTools" Version="[15.0,16.0)" DisplayName=".NET Core 2.0 development tools" />
+	</Prerequisites>
+	<Assets>
+		<Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+		<Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="Output\Templates" />
+	</Assets>
 </PackageManifest>

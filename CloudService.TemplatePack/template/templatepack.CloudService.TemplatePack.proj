@@ -7,9 +7,12 @@
           Condition=" '$(TemplatePackPropsFilePath)' != '' and Exists('$(TemplatePackPropsFilePath)') " />
 
   <PropertyGroup Label="TemplatePackInfo">
-    <Authors>Your name here</Authors>
-    <Description>A description for your template pack</Description>
+    <Authors>Oren Novotny</Authors>
+    <Description>ASP.NET Core Cloud Service Template</Description>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/onovotny/AspNetCoreCloudService/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/onovotny/AspNetCoreCloudService</PackageProjectUrl>
     <Version>1.0.0</Version>
+    <Copyright>© Oren Novotny 2017</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Label="PackageConfiguration">
