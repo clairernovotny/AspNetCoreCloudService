@@ -16,6 +16,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreCloudService.Temp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1C96A60A-748B-4E92-AE4F-481E1FA08DE5}"
 	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		version.json = version.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".template.config", ".template.config", "{19E58892-683A-4FDD-B01E-9767F017636D}"
+	ProjectSection(SolutionItems) = preProject
 		.template.config\template.json = .template.config\template.json
 		.template.config\template.vstemplate = .template.config\template.vstemplate
 		.template.config\vs-2017.3.host.json = .template.config\vs-2017.3.host.json
@@ -46,6 +52,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{19E58892-683A-4FDD-B01E-9767F017636D} = {1C96A60A-748B-4E92-AE4F-481E1FA08DE5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1FFED78E-C14B-4674-9129-B7EBD8C05379}

@@ -11,7 +11,6 @@
     <Description>ASP.NET Core Cloud Service Template</Description>
     <PackageLicenseUrl>https://raw.githubusercontent.com/onovotny/AspNetCoreCloudService/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/onovotny/AspNetCoreCloudService</PackageProjectUrl>
-    <Version>1.0.0</Version>
     <Copyright>© Oren Novotny 2017</Copyright>
     <PackageId>AspNetCoreCloudService.Template</PackageId>
   </PropertyGroup>
@@ -34,7 +33,10 @@
     <ExcludeFromPackage Include="$(TemplateSourceRoot)**/.git/**/*" />
     <ExcludeFromPackage Include="$(TemplateSourceRoot)**/packages/**/*" />
     <ExcludeFromPackage Include="$(TemplateSourceRoot)**/_ReSharper.Caches/**/*" />
+    <ExcludeFromPackage Include="$(TemplateSourceRoot)**/SignClient/**/*" />
     <ExcludeFromPackage Include="$(TemplateSourceRoot)AspNetCoreCloudService.sln" />
+    <ExcludeFromPackage Include="$(TemplateSourceRoot)appveyor.yml" />
+    <ExcludeFromPackage Include="$(TemplateSourceRoot)version.json" />
 
     <TemplateFiles  Include="$(TemplateSourceRoot)/**/*" 
                     Exclude="@(ExcludeFromPackage)" />
