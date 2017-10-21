@@ -1,9 +1,9 @@
 {
   "name": {
-    "text": "ASP.NET Core Cloud Service"
+    "text": "ASP.NET Core Cloud Service (Web Role)"
   },
   "description": {
-    "text": "ASP.NET Core Cloud Service"
+    "text": "ASP.NET Core Cloud Service (Web Role)"
   },
   "order": 1000,
   "icon": "project-icon.png",

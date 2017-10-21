@@ -1,7 +1,7 @@
 
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
   <TemplateData>
-    <Name>Cloud Service</Name>
+    <Name>ASP.NET Core Cloud Service (Web Role)</Name>
     <Description>ASP.NET Core Cloud Service Template</Description>
     <TemplateID>Oren.Template.CloudService.CSharp</TemplateID>
     <DefaultName>CloudService</DefaultName>

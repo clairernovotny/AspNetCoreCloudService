@@ -2,8 +2,8 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
         <Identity Id="4B34D912-F5C8-45CB-9613-376240ED48DE" Version="1.0" Language="en-US" Publisher="Oren Novotny" />
-        <DisplayName>ASP.NET Core Cloud Service Template</DisplayName>
-        <Description xml:space="preserve">ASP.NET Core Cloud Service Template</Description>
+        <DisplayName>ASP.NET Core Cloud Service (Web Role) Template</DisplayName>
+        <Description xml:space="preserve">ASP.NET Core Cloud Service (Web Role) Template</Description>
         <MoreInfo>https://oren.codes/2017/10/16/using-asp-net-core-with-azure-cloud-services/</MoreInfo>
         <License>LICENSE.txt</License>
         <Tags>asp.net core, template</Tags>

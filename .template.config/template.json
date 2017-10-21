@@ -2,7 +2,7 @@
   "author": "Oren Novotny",
   "classifications": [ "Web", "MVC" ],
   "description": "ASP.NET Core Cloud Service Template",
-  "name": "Cloud Service",
+  "name": "ASP.NET Core Cloud Service (Web Role)",
   "defaultName": "CloudService",
   "identity": "Oren.Template.CloudService.CSharp",
   "groupIdentity": "Oren.Template.CloudService",
