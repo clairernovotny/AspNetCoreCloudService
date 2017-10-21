@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using TheWebsite.Models;
+using MyCloudService.Website.Models;
 
-namespace TheWebsite.Controllers
+namespace MyCloudService.Website.Controllers
 {
     public class HomeController : Controller
     {

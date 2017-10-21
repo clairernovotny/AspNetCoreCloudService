@@ -8,10 +8,10 @@
     <ProjectGuid>6dc6f7a8-d465-4b67-96bb-7f2c44f67e3a</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TheCloudService</RootNamespace>
-    <AssemblyName>TheCloudService</AssemblyName>
+    <RootNamespace>MyCloudService.Service</RootNamespace>
+    <AssemblyName>MyCloudService.Service</AssemblyName>
     <StartDevelopmentStorage>True</StartDevelopmentStorage>
-    <Name>TheCloudService</Name>
+    <Name>MyCloudService.Service</Name>
     <PackageEnableRemoteDebugger>False</PackageEnableRemoteDebugger>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -38,24 +38,21 @@
     <ServiceConfiguration Include="ServiceConfiguration.Cloud.cscfg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TheWebRole\TheWebRole.csproj">
-      <Name>TheWebRole</Name>
+    <ProjectReference Include="..\MyCloudService.WebRole\MyCloudService.WebRole.csproj">
+      <Name>MyCloudService.WebRole</Name>
       <Project>{7ec9b1ff-31cb-4200-99c7-72c3a8a472b3}</Project>
       <Private>True</Private>
       <RoleType>Web</RoleType>
-      <RoleName>TheWebRole</RoleName>
+      <RoleName>MyCloudService.WebRole</RoleName>
       <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Profiles" />
-    <Folder Include="TheWebRoleContent\" />
+    <Folder Include="MyCloudService.WebRoleContent\" />
   </ItemGroup>
   <ItemGroup>
-    <DiagnosticsConfiguration Include="TheWebRoleContent\diagnostics.wadcfgx" />
-  </ItemGroup>
-  <ItemGroup>
-    <PublishProfile Include="Profiles\aspnetcorecloudserviceProduction.azurePubxml" />
+    <DiagnosticsConfiguration Include="MyCloudService.WebRoleContent\diagnostics.wadcfgx" />
   </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>

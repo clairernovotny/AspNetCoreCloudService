@@ -1,0 +1,41 @@
+{
+  "author": "Oren Novotny",
+  "classifications": [ "Web", "MVC" ],
+  "description": "ASP.NET Core Cloud Service Template",
+  "name": "ASP.NET Core Cloud Service (Web Role)",
+  "defaultName": "CloudService",
+  "identity": "Oren.Template.CloudService.CSharp",
+  "groupIdentity": "Oren.Template.CloudService",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "shortName": "cloudsvc",
+  "sourceName": "MyCloudService",
+  "guids": [],
+  "primaryOutputs": [
+    {
+      "path": "MyCloudService.Service\\MyCloudService.Service.ccproj"
+    },
+    {
+      "path": "MyCloudService.WebRole\\MyCloudService.WebRole.csproj"
+    },
+    {
+      "path": "MyCloudService.Website\\MyCloudService.Website.csproj"
+    }
+  ],
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "netcoreapp2.0",
+          "description": "Target netcoreapp2.0"
+        }
+      ],
+      "defaultValue": "netcoreapp2.0"
+    }
+  }
+}

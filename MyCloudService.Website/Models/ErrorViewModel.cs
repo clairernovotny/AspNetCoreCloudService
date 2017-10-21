@@ -1,6 +1,6 @@
 using System;
 
-namespace TheWebsite.Models
+namespace MyCloudService.Website.Models
 {
     public class ErrorViewModel
     {

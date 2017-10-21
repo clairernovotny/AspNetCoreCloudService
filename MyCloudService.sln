@@ -12,15 +12,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCloudService.WebRole", "M
 		{5EADDCB1-15E8-434C-97B3-E7DA95BD0F20} = {5EADDCB1-15E8-434C-97B3-E7DA95BD0F20}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreCloudService.Template", "AspNetCoreCloudService.Template\AspNetCoreCloudService.Template.csproj", "{3BDF1746-9239-4ECB-9F40-1A0B92B27FF5}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1C96A60A-748B-4E92-AE4F-481E1FA08DE5}"
-	ProjectSection(SolutionItems) = preProject
-		.template.config\template.json = .template.config\template.json
-		.template.config\template.vstemplate = .template.config\template.vstemplate
-		.template.config\vs-2017.3.host.json = .template.config\vs-2017.3.host.json
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,10 +30,6 @@ Global
 		{7EC9B1FF-31CB-4200-99C7-72C3A8A472B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EC9B1FF-31CB-4200-99C7-72C3A8A472B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EC9B1FF-31CB-4200-99C7-72C3A8A472B3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3BDF1746-9239-4ECB-9F40-1A0B92B27FF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3BDF1746-9239-4ECB-9F40-1A0B92B27FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3BDF1746-9239-4ECB-9F40-1A0B92B27FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3BDF1746-9239-4ECB-9F40-1A0B92B27FF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
