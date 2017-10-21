@@ -1,6 +1,6 @@
 {
   "author": "Oren Novotny",
-  "classifications": [],
+  "classifications": [ "Web", "MVC" ],
   "description": "ASP.NET Core Cloud Service Template",
   "name": "Cloud Service",
   "defaultName": "CloudService",
@@ -23,5 +23,19 @@
     {
       "path": "MyCloudService.Website\\MyCloudService.Website.csproj"
     }
-  ]
+  ],
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "netcoreapp2.0",
+          "description": "Target netcoreapp2.0"
+        }
+      ],
+      "defaultValue": "netcoreapp2.0"
+    }
+  }
 }
