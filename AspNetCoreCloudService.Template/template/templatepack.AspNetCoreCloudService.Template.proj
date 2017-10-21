@@ -13,6 +13,7 @@
     <PackageProjectUrl>https://github.com/onovotny/AspNetCoreCloudService</PackageProjectUrl>
     <Version>1.0.0</Version>
     <Copyright>© Oren Novotny 2017</Copyright>
+    <PackageId>AspNetCoreCloudService.Template</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Label="PackageConfiguration">

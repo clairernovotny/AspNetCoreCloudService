@@ -1,7 +1,7 @@
 {
   "author": "Oren Novotny",
   "classifications": [],
-  "description": "template description",
+  "description": "ASP.NET Core Cloud Service Template",
   "name": "Cloud Service",
   "defaultName": "CloudService",
   "identity": "Oren.Template.CloudService.CSharp",

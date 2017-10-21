@@ -17,8 +17,8 @@
     <ProjectGuid>{3BDF1746-9239-4ECB-9F40-1A0B92B27FF5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CloudService.TemplatePack</RootNamespace>
-    <AssemblyName>CloudService.TemplatePack</AssemblyName>
+    <RootNamespace>AspNetCoreCloudService.Template</RootNamespace>
+    <AssemblyName>AspNetCoreCloudService.Template</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
@@ -58,7 +58,7 @@
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
-    <None Include="template\templatepack.CloudService.TemplatePack.proj" />
+    <None Include="template\templatepack.AspNetCoreCloudService.Template.proj" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\project-icon.png" />
