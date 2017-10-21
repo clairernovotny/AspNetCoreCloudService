@@ -34,6 +34,7 @@
     <ExcludeFromPackage Include="$(TemplateSourceRoot)**/.git/**/*" />
     <ExcludeFromPackage Include="$(TemplateSourceRoot)**/packages/**/*" />
     <ExcludeFromPackage Include="$(TemplateSourceRoot)**/_ReSharper.Caches/**/*" />
+    <ExcludeFromPackage Include="$(TemplateSourceRoot)AspNetCoreCloudService.sln" />
 
     <TemplateFiles  Include="$(TemplateSourceRoot)/**/*" 
                     Exclude="@(ExcludeFromPackage)" />
