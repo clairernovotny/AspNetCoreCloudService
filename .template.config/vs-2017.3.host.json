@@ -6,7 +6,7 @@
     "text": "ASP.NET Core Cloud Service (Web Role)"
   },
   "order": 1000,
-  "icon": "project-icon.png",
+  "icon": "icon.png",
   "learnMoreLink": "https://oren.codes/2017/10/16/using-asp-net-core-with-azure-cloud-services/",
   "uiFilters": [ "oneaspnet" ],
   "supportsDocker": false

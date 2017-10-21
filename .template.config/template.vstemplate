@@ -6,7 +6,7 @@
     <TemplateID>Oren.Template.CloudService.CSharp</TemplateID>
     <DefaultName>CloudService</DefaultName>
     
-    <Icon>project-icon.png</Icon>
+    <Icon>icon.png</Icon>
     
     <ProjectType>CSharp</ProjectType>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
