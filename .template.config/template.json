@@ -12,7 +12,10 @@
   },
   "shortName": "cloudsvc",
   "sourceName": "MyCloudService",
-  "guids": [],
+  "guids": [
+    "6dc6f7a8-d465-4b67-96bb-7f2c44f67e3a",
+    "7ec9b1ff-31cb-4200-99c7-72c3a8a472b3
+  ],
   "primaryOutputs": [
     {
       "path": "MyCloudService.Service\\MyCloudService.Service.ccproj"
