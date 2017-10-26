@@ -37,6 +37,7 @@
     <ExcludeFromPackage Include="$(TemplateSourceRoot)AspNetCoreCloudService.sln" />
     <ExcludeFromPackage Include="$(TemplateSourceRoot)appveyor.yml" />
     <ExcludeFromPackage Include="$(TemplateSourceRoot)version.json" />
+    <ExcludeFromPackage Include="$(TemplateSourceRoot)**/launchSettings.json" />
 
     <TemplateFiles  Include="$(TemplateSourceRoot)/**/*" 
                     Exclude="@(ExcludeFromPackage)" />
